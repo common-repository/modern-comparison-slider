@@ -1,0 +1,65 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.frame {
+  color: #4a5568;
+  background: #f7fafc;
+  padding: 3rem;
+  margin: 2rem;
+  margin-left: calc(2rem - 10px);
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 783px) {
+  .frame {
+    margin-left: calc(2rem - 20px);
+  }
+}
+
+.frame img {
+  max-width: 100%;
+}
+
+.frame h1 {
+  margin-bottom: 3rem;
+}
+
+.frame h2 {
+  color: #4a5568;
+}
+
+.frame th:first-child label {
+  color: #4299e1;
+}
+
+.frame .default {
+  color: #a0aec0 !important;
+}
+
+.frame #submit {
+  background: #5a67d8;
+  transition: 0.2s ease-out;
+}
+
+.frame #submit:hover {
+  background: #4299e1;
+}
+
+.frame p.submit {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.frame input[type="text"] {
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.25rem;
+  border: none;
+}
